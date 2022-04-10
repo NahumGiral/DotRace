@@ -22,11 +22,21 @@ public class ObsMovement : MonoBehaviour
     {
         if(transform.position.y > -12.5)
         {
-            transform.position = transform.position + new Vector3(0, (-1) * Globle.velPos, 0);
+            transform.position = transform.position + new Vector3(0, (-1) * Globle.velPos, 0); 
         }
         else
         {
             transform.position = new Vector3(Random.Range(-4.46f, 4.46f), 25.0f, 0);
+            //transform.position = new Vector3( 4.46f, 25.0f, 0);
+            Globle.contadorObs++;
+            if (Globle.contadorObs == 25)
+            {
+                if (Globle.multiplier < 20)
+                {
+                    Globle.multiplier++;
+                }
+                Globle.contadorObs = 0;
+            }
         }
         transform.rotation = new Quaternion(0, 0, 0, 0);
     }
@@ -36,6 +46,7 @@ public class ObsMovement : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        Globle.RestartValues();
         restartGame();
     }
 }

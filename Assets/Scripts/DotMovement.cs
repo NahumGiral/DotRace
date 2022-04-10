@@ -23,24 +23,28 @@ public class DotMovement : MonoBehaviour, IDragHandler
         if (transform.position.y >= 5)
         {
             Globle.velPos = Globle.velIni + 0.26f;
+            Globle.velMultiplier = 4;
         }
         else
         {
             if (transform.position.y < 5 && transform.position.y >= 0)
             {
                 Globle.velPos = Globle.velIni + 0.22f;
+                Globle.velMultiplier = 3;
             }
             else
             {
                 if (transform.position.y < 0 && transform.position.y >= -5)
                 {
                     Globle.velPos = Globle.velIni + 0.18f;
+                    Globle.velMultiplier = 2;
                 }
                 else
                 {
                     if (transform.position.y <= -5)
                     {
                         Globle.velPos = Globle.velIni + 0.14f;
+                        Globle.velMultiplier = 1;
                     }
                 }
             }

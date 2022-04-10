@@ -28,9 +28,23 @@ public class EndObsMovement : MonoBehaviour
         {
 
             transform.position = new Vector3(Random.Range(-4.46f, 4.46f), 25.0f, 0);
-            if (Globle.velIni < 0.30f)
+            //transform.position = new Vector3(4.46f, 25.0f, 0);
+            if(Globle.velIni < 0.15)
             {
-                Globle.velIni = Globle.velIni + 0.0025f;
+                Globle.velIni = Globle.velIni + 0.025f;
+            }
+            else
+            {
+                Globle.velIni = Globle.velIni + 0.0010f;
+            }
+            Globle.contadorObs++;
+            if (Globle.contadorObs == 25)
+            {
+                if (Globle.multiplier < 20)
+                {
+                    Globle.multiplier++;
+                }
+                Globle.contadorObs = 0;
             }
         }
         transform.rotation = new Quaternion(0, 0, 0, 0);
