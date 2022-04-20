@@ -1,7 +1,82 @@
 fileFormatVersion: 2
 guid: dfc9034830f41674aa9f1baea4aff573
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 7141056081789285390
+    second: sprites completos_1
+  - first:
+      213: 7744717129859542610
+    second: sprites completos_2
+  - first:
+      213: -251651064577067274
+    second: sprites completos_4
+  - first:
+      213: -7657896710030683143
+    second: sprites completos_10
+  - first:
+      213: 4077294227640517126
+    second: sprites completos_11
+  - first:
+      213: 962150553924599544
+    second: sprites completos_12
+  - first:
+      213: -8695557958221756481
+    second: sprites completos_14
+  - first:
+      213: 6792837252038690609
+    second: sprites completos_15
+  - first:
+      213: -634111459511079376
+    second: sprites completos_16
+  - first:
+      213: 4034915127108411612
+    second: sprites completos_17
+  - first:
+      213: 5587408711315263093
+    second: sprites completos_19
+  - first:
+      213: 4203390933957516428
+    second: sprites completos_20
+  - first:
+      213: 3100390340787852575
+    second: sprites completos_21
+  - first:
+      213: 7863487782429750052
+    second: sprites completos_22
+  - first:
+      213: -2334310575354178015
+    second: sprites completos_23
+  - first:
+      213: -8066025541650539160
+    second: sprites completos_24
+  - first:
+      213: -4144245756671629380
+    second: sprites completos_25
+  - first:
+      213: 8965101992590283462
+    second: sprites completos_26
+  - first:
+      213: -2383877363888032160
+    second: sprites completos_27
+  - first:
+      213: -7685597375070804984
+    second: sprites completos_29
+  - first:
+      213: 158171738082838684
+    second: sprites completos_30
+  - first:
+      213: 9165381568417295846
+    second: sprites completos_32
+  - first:
+      213: -6795698322216923138
+    second: sprites completos_33
+  - first:
+      213: -7763353735897544216
+    second: sprites completos_34
+  - first:
+      213: 5543922070020987588
+    second: sprites completos_35
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,7 +115,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -71,9 +146,558 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: sprites completos_1
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 2194
+        width: 164
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e047134eba02a1360800000000000000
+      internalID: 7141056081789285390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites completos_2
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 2194
+        width: 183
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e29234233ca7b60800000000000000
+      internalID: 7744717129859542610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites completos_4
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 2194
+        width: 150
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6f888a0b4f18cf0800000000000000
+      internalID: -251651064577067274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites completos_10
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1923
+        width: 109
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f31df7f38fa9b590800000000000000
+      internalID: -7657896710030683143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites completos_11
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1923
+        width: 110
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60283436f75759830800000000000000
+      internalID: 4077294227640517126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites completos_12
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1923
+        width: 108
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fefe13c4de3a5d00800000000000000
+      internalID: 962150553924599544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites completos_14
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1679
+        width: 159
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb70f58ab1c235780800000000000000
+      internalID: -8695557958221756481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites completos_15
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 1679
+        width: 182
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1378ec0ad71054e50800000000000000
+      internalID: 6792837252038690609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites completos_16
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1679
+        width: 164
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e66dbbcfe2337f0800000000000000
+      internalID: -634111459511079376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites completos_17
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1428
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd0a5222ee5eef730800000000000000
+      internalID: 4034915127108411612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites completos_19
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1428
+        width: 160
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e8edc9e967a8d40800000000000000
+      internalID: 5587408711315263093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites completos_20
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1428
+        width: 185
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c92aea8c1755a30800000000000000
+      internalID: 4203390933957516428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites completos_21
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1160
+        width: 109
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1556bf969cc60b20800000000000000
+      internalID: 3100390340787852575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites completos_22
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1154
+        width: 108
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423795fb978b02d60800000000000000
+      internalID: 7863487782429750052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites completos_23
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1127
+        width: 110
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 126939046ecda9fd0800000000000000
+      internalID: -2334310575354178015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites completos_24
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 890
+        width: 144
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d11b86188bf0090800000000000000
+      internalID: -8066025541650539160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites completos_25
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 890
+        width: 160
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb7eaa3017eac76c0800000000000000
+      internalID: -4144245756671629380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites completos_26
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 890
+        width: 185
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c29d7b53c07a6c70800000000000000
+      internalID: 8965101992590283462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites completos_27
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 621
+        width: 145
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066fb59fa24caeed0800000000000000
+      internalID: -2383877363888032160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites completos_29
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 604
+        width: 161
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804ea3c48e5475590800000000000000
+      internalID: -7685597375070804984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites completos_30
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 583
+        width: 182
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c980fe59b50f13200800000000000000
+      internalID: 158171738082838684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites completos_32
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 377
+        width: 134
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6edec68e9f9f13f70800000000000000
+      internalID: 9165381568417295846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites completos_33
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 353
+        width: 149
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: effca8f8164d0b1a0800000000000000
+      internalID: -6795698322216923138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites completos_34
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 328
+        width: 164
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e90022c8e6034490800000000000000
+      internalID: -7763353735897544216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites completos_35
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 129
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca9c0eefb7ffec40800000000000000
+      internalID: 5543922070020987588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

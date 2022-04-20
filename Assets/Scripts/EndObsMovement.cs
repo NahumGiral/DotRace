@@ -20,16 +20,23 @@ public class EndObsMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.y > -12.5)
+        if(transform.position.y > -12.5)
         {
-            transform.position = transform.position + new Vector3(0, (-1) * Globle.velPos, 0);
+            if (Globle.isAlive == true)
+            {
+                transform.position = transform.position + new Vector3(0, (-1) * Globle.velPos, 0);
+            }
+            else
+            {
+                transform.position = transform.position + new Vector3(0, (-1) * 0.05f, 0);
+            }
         }
         else
         {
 
             transform.position = new Vector3(Random.Range(-4.46f, 4.46f), 25.0f, 0);
             //transform.position = new Vector3(4.46f, 25.0f, 0);
-            if(Globle.velIni < 0.15)
+            if (Globle.velIni < 0.20)
             {
                 Globle.velIni = Globle.velIni + 0.025f;
             }
@@ -43,6 +50,7 @@ public class EndObsMovement : MonoBehaviour
                 if (Globle.multiplier < 20)
                 {
                     Globle.multiplier++;
+                    Globle.velIni = Globle.velIni + 0.010f;
                 }
                 Globle.contadorObs = 0;
             }
@@ -50,12 +58,12 @@ public class EndObsMovement : MonoBehaviour
         transform.rotation = new Quaternion(0, 0, 0, 0);
 
     }
-    public void restartGame()
+    /*public void restartGame()
     {
         SceneManager.LoadScene("Play");
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         restartGame();
-    }
+    }*/
 }
