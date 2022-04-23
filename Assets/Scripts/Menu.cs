@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-public class Reset : MonoBehaviour
+public class Menu : MonoBehaviour
 {
-    public void ResetGameButton()
+    public void MenuGameButton()
     {
         Globle.RestartValues();
-        Globle.isPlaying = true;
-        SceneManager.LoadScene("Play");
+        Globle.isPlaying = false;
+        SceneManager.LoadScene("Menu");
     }
 
 }

@@ -1,9 +1,9 @@
 {
-    "m_SelectedDeviceId": "07326331AW100080",
+    "m_SelectedDeviceId": "390fbd2c",
     "m_SelectedPackage": {
-        "deviceId": "07326331AW100080",
+        "deviceId": "390fbd2c",
         "name": "com.DefaultCompany.com.unity.template.mobile2D",
-        "processId": 11413,
+        "processId": 31818,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -156,6 +156,54 @@
             "deviceId": "390fbd2c",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
             "processId": 17026,
+            "exited": false
+        },
+        {
+            "deviceId": "390fbd2c",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 23624,
+            "exited": false
+        },
+        {
+            "deviceId": "390fbd2c",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 16797,
+            "exited": false
+        },
+        {
+            "deviceId": "390fbd2c",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 22333,
+            "exited": false
+        },
+        {
+            "deviceId": "390fbd2c",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 24074,
+            "exited": false
+        },
+        {
+            "deviceId": "390fbd2c",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 26681,
+            "exited": false
+        },
+        {
+            "deviceId": "390fbd2c",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 28515,
+            "exited": false
+        },
+        {
+            "deviceId": "390fbd2c",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 30675,
+            "exited": false
+        },
+        {
+            "deviceId": "390fbd2c",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 31818,
             "exited": false
         },
         {

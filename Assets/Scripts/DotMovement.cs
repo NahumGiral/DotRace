@@ -65,19 +65,6 @@ public class DotMovement : MonoBehaviour, IDragHandler
     {
         SceneManager.LoadScene("Play");
     }
-    /*private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if(Component.comp. collision)
-        collider.enabled = false;
-        //Globle.RestartValues();
-        //restartGame();
-        StartCoroutine(Wait());
-        IEnumerator Wait()
-        {
-            yield return new WaitForSeconds(3f);
-            SceneManager.LoadScene("Play");
-        }
-    }*/
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Obstacle"))

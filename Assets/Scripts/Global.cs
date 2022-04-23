@@ -12,6 +12,7 @@ public class Globle : MonoBehaviour
     public static int contadorObs = 0;
     public static bool isAlive = true;
     public static bool gameover = false;
+    public static bool isPlaying = false;
     public static void RestartValues()
     {
         velMultiplier = 1;

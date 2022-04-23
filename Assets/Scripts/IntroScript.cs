@@ -13,6 +13,6 @@ public class IntroScript : MonoBehaviour
     IEnumerator Wait()
     {
         yield return new WaitForSeconds(4f);
-        SceneManager.LoadScene("Play");
+        SceneManager.LoadScene("Menu");
     } 
 }
